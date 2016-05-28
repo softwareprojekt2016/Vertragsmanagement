@@ -24,7 +24,7 @@ namespace Vertragsmanagement3.Controllers
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "My contact page.";
+            ViewData["Message"] = HttpContext.User.Identity.Name;
 
             return View();
         }
