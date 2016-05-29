@@ -17,6 +17,7 @@ namespace Vertragsmanagement3
     {
         public Startup(IHostingEnvironment env)
         {
+            // Verbindungstest (frankeph)
             // Set up configuration sources.
             var builder = new ConfigurationBuilder()
                 .AddJsonFile("appsettings.json")
